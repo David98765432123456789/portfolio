@@ -71,7 +71,7 @@ p{
 }
 .image-gallery{
     display: grid;
-    grid-template-columns: 35% 35%;
+    grid-template-columns: 45% 45%;
     gap: 10px;
     margin-left: 100px;
 }
