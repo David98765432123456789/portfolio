@@ -67,6 +67,7 @@ h1,h2{
 p{
     font-size: 20px;
     margin: 5px;
+    padding: 0 30px;
 }
 .image-gallery{
     display: grid;
