@@ -73,7 +73,7 @@ p{
     display: grid;
     grid-template-columns: 35% 35%;
     gap: 10px;
-    margin-left: 50px;
+    justify-content: center;
 }
 .image-gallery img{
     width: 100%;
