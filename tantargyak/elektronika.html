@@ -13,10 +13,10 @@
         <hr>
 
         <div class="image-gallery">
-            <img src="../11/A/Elektronika/Elektronika1.PNG">
-            <img src="../11/A/Elektronika/Elektronika2.PNG">
-            <img src="../11/A/Elektronika/Elektronika3.PNG">
-            <img src="../11/A/Elektronika/Elektronika4.PNG">
+            <img class="thumbnail" src="../11/A/Elektronika/Elektronika1.PNG">
+            <img class="thumbnail" src="../11/A/Elektronika/Elektronika2.PNG">
+            <img class="thumbnail" src="../11/A/Elektronika/Elektronika3.PNG">
+            <img class="thumbnail" src="../11/A/Elektronika/Elektronika4.PNG">
         </div>
 
         <div id="myModal" class="modal">
@@ -25,7 +25,7 @@
         </div>
     </body>
     <style>
-        const images = document.querySelectorAll('.image-gallery img');
+        const images = document.querySelectorAll('.thumbnail');
         const modal = document.getElementById('myModal');
         const modalImage = document.getElementById('image');
         const closeButton = document.querySelector('.close');
