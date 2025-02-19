@@ -72,7 +72,8 @@ p{
     display: grid;
     grid-template-columns: repeat(auto-fill, 20%);
     gap: 10px;
-    margin: 0 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .image-gallery img{
     width: 100%;
@@ -82,7 +83,7 @@ p{
 }
 .image-gallery img:hover{
     box-shadow: 2px 3px 15px black;
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 /* Vissza gomb */
