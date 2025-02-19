@@ -13,32 +13,10 @@
         <hr>
 
         <div class="image-gallery">
-            <img class="thumbnail" src="../11/A/Elektronika/Elektronika1.PNG">
-            <img class="thumbnail" src="../11/A/Elektronika/Elektronika2.PNG">
-            <img class="thumbnail" src="../11/A/Elektronika/Elektronika3.PNG">
-            <img class="thumbnail" src="../11/A/Elektronika/Elektronika4.PNG">
-        </div>
-
-        <div id="myModal" class="modal">
-            <div class="close">&times;</div>
-            <img class="modal-content" id="image">
+            <img src="../11/A/Elektronika/Elektronika1.PNG">
+            <img src="../11/A/Elektronika/Elektronika2.PNG">
+            <img src="../11/A/Elektronika/Elektronika3.PNG">
+            <img src="../11/A/Elektronika/Elektronika4.PNG">
         </div>
     </body>
-    <style>
-        const images = document.querySelectorAll('.thumbnail');
-        const modal = document.getElementById('myModal');
-        const modalImage = document.getElementById('image');
-        const closeButton = document.querySelector('.close');
-
-        images.forEach(image => {
-            image.addEventListener('click', function() {
-                modal.style.display = "block";
-                modalImage.src = this.src;
-            });
-        });
-
-        closeButton.addEventListener('click', function() {
-            modal.style.display = "none";
-        });
-    </style>
 </html>
