@@ -73,6 +73,9 @@ p{
     margin: 5px;
     padding: 0 50px;
 }
+strong {
+    display: block;
+}
 .image-gallery{
     display: grid;
     grid-template-columns: 45% 45%;
